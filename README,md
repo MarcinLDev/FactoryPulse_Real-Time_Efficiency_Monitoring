@@ -1,0 +1,24 @@
+Topic: Wykrywanie i analiza nieefektywności magazynowania (Storage Module)
+
+
+Step by step:
+1. Eksploracja danych
+Sprawdź rozkład statusów i zmiennych binarnych
+Zidentyfikuj okresy błędów, przerw, oczekiwań
+
+2. Feature Engineering
+Czas trwania statusów (np. ile czasu system był w stanie Idle)
+Liczba cykli operacyjnych na godzinę
+Sekwencje binarne do klasyfikacji (np. błędy vs. operacje poprawne)
+
+3. ML – klasyfikacja lub detekcja anomalii
+Jeśli masz etykiety (np. błędy) → klasyfikacja (RandomForest, XGBoost)
+Jeśli nie masz – detekcja anomalii: Isolation Forest / Autoencoder
+Alternatywnie: analiza sekwencji (np. LSTM / markowy łańcuch)
+
+4. Power BI – KPI Dashboard
+Zaprojektuj interaktywny panel, np.:
+Średni czas przestoju na dzień
+Liczba operacji na godzinę
+Liczba błędów na zmianę
+Trend wykorzystania systemu (heatmapa czasu pracy)
