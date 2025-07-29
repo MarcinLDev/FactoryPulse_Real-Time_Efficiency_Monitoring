@@ -12,6 +12,9 @@ Liczba cykli operacyjnych na godzinę
 Sekwencje binarne do klasyfikacji (np. błędy vs. operacje poprawne)
 
 3. ML – klasyfikacja lub detekcja anomalii
+
+CLE ML to: Zbudowanie modelu Machine Learning do automatycznego wykrywania anomalii w działaniu modułu magazynującego w systemie produkcyjnym.
+
 Jeśli masz etykiety (np. błędy) → klasyfikacja (RandomForest, XGBoost)
 Jeśli nie masz – detekcja anomalii: Isolation Forest / Autoencoder
 Alternatywnie: analiza sekwencji (np. LSTM / markowy łańcuch)
