@@ -64,11 +64,11 @@ The output files (`predicted_anomalies.csv`, `anomaly_kpi.csv`) are used in a Po
 - [`01_raw_data/`](./01_raw_data/) – Raw CSV files (sensor readings from modules)
 - [`02_notebooks/`](./02_notebooks/) – Notebooks with EDA and ML workflow  
   - [`02_01_DataCleaning_FeatureEngineering_modelML.ipynb`](./02_notebooks/02_01_DataCleaning_FeatureEngineering_modelML.ipynb)
-- [`03_model/`](./03_model/) – Exported trained model
-- [`04_scripts/`](./04_scripts/) – Python scripts for production  
+- [`03_ExportResults_notebooks/`](./03_model/) – Exported trained model
+- [`04_production_Scripts/`](./04_scripts/) – Python scripts for production  
   - [`02_01_IsolationForestDetectedAnomaly.py`](./04_scripts/02_01_IsolationForestDetectedAnomaly.py)
-- [`05_outputs/`](./05_outputs/) – Output CSVs  
+- [`05_production_Scripts_Output/`](./05_outputs/) – Output CSVs  
   - [`predicted_anomalies.csv`](./05_outputs/predicted_anomalies.csv)  
   - [`anomaly_kpi.csv`](./05_outputs/anomaly_kpi.csv)
-- [`06_bi_dashboard/`](./06_bi_dashboard/) – (Optional) Power BI dashboard
+- [`06_BI_Dashboards/`](./06_bi_dashboard/) – (Optional) Power BI dashboard
 
